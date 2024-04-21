@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: #000616;
+}
+
+#home-brand {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* border: 1px solid white; */
+    margin: 5px;
+}
+
+#brand {
+    color: yellow;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+#background {
+    background-color: #000616;
+}
+  
+  
