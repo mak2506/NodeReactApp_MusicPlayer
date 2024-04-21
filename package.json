@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "node index.js",
     "hmr": "nodemon index.js",
-    "nodemon": "npm run hmr"
+    "nodemon": "npm run hmr",
+    "start": "node index.js",
+    "build": "cd client && npm install && npm run build"
   },
   "author": "Mansi Kumari",
   "license": "ISC",
