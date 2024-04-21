@@ -8,7 +8,7 @@
     "hmr": "nodemon index.js",
     "nodemon": "npm run hmr",
     "start": "node index.js",
-    "build": "cd client && npm install && npm run build",
+    "build": "node index.js && cd client && npm install && npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
